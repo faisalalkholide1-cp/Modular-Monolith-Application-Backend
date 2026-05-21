@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/Moduls.Ordering.Domain.Shared/Moduls.Ordering.Domain.Shared.csproj" />
+        <Project Path="src/Moduls.Ordering.Domain/Moduls.Ordering.Domain.csproj" />
+        <Project Path="src/Moduls.Ordering.Application.Contracts/Moduls.Ordering.Application.Contracts.csproj" />
+        <Project Path="src/Moduls.Ordering.Application/Moduls.Ordering.Application.csproj" />
+        <Project Path="src/Moduls.Ordering.EntityFrameworkCore/Moduls.Ordering.EntityFrameworkCore.csproj" />
+        <Project Path="src/Moduls.Ordering.HttpApi/Moduls.Ordering.HttpApi.csproj" />
+        <Project Path="src/Moduls.Ordering.HttpApi.Client/Moduls.Ordering.HttpApi.Client.csproj" />
+        <Project Path="src/Moduls.Ordering.Installer/Moduls.Ordering.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/Moduls.Ordering.TestBase/Moduls.Ordering.TestBase.csproj" />
+        <Project Path="test/Moduls.Ordering.EntityFrameworkCore.Tests/Moduls.Ordering.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Moduls.Ordering.Domain.Tests/Moduls.Ordering.Domain.Tests.csproj" />
+        <Project Path="test/Moduls.Ordering.Application.Tests/Moduls.Ordering.Application.Tests.csproj" />
+    </Folder>
+</Solution>

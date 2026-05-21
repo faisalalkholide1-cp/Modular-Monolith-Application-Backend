@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/Order.Domain.Shared/Order.Domain.Shared.csproj" />
+        <Project Path="src/Order.Domain/Order.Domain.csproj" />
+        <Project Path="src/Order.Application.Contracts/Order.Application.Contracts.csproj" />
+        <Project Path="src/Order.Application/Order.Application.csproj" />
+        <Project Path="src/Order.EntityFrameworkCore/Order.EntityFrameworkCore.csproj" />
+        <Project Path="src/Order.HttpApi/Order.HttpApi.csproj" />
+        <Project Path="src/Order.HttpApi.Client/Order.HttpApi.Client.csproj" />
+        <Project Path="src/Order.Installer/Order.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/Order.TestBase/Order.TestBase.csproj" />
+        <Project Path="test/Order.EntityFrameworkCore.Tests/Order.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Order.Domain.Tests/Order.Domain.Tests.csproj" />
+        <Project Path="test/Order.Application.Tests/Order.Application.Tests.csproj" />
+    </Folder>
+</Solution>

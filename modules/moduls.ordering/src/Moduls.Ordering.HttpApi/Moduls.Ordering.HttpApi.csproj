@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Moduls.Ordering</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="10.3.0" />
+    <ProjectReference Include="..\Moduls.Ordering.Application.Contracts\Moduls.Ordering.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Moduls.Ordering.Application\Moduls.Ordering.Application.csproj" />
+  </ItemGroup>
+
+</Project>

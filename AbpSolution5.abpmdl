@@ -1,0 +1,117 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.3.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 12:15:24 +00:00"
+    },
+    "Catalog": {
+      "path": "modules/catalog/Catalog.abpmdl",
+      "isInstalled": true
+    },
+    "Moduls.Ordering": {
+      "path": "modules/moduls.ordering/Moduls.Ordering.abpmdl",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AbpSolution5.Application": {
+      "path": "src/AbpSolution5.Application/AbpSolution5.Application.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.Application.Tests": {
+      "path": "test/AbpSolution5.Application.Tests/AbpSolution5.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpSolution5.Domain.Shared": {
+      "path": "src/AbpSolution5.Domain.Shared/AbpSolution5.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.Application.Contracts": {
+      "path": "src/AbpSolution5.Application.Contracts/AbpSolution5.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.HttpApi": {
+      "path": "src/AbpSolution5.HttpApi/AbpSolution5.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.HttpApi.Client": {
+      "path": "src/AbpSolution5.HttpApi.Client/AbpSolution5.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.EntityFrameworkCore.Tests": {
+      "path": "test/AbpSolution5.EntityFrameworkCore.Tests/AbpSolution5.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpSolution5.EntityFrameworkCore": {
+      "path": "src/AbpSolution5.EntityFrameworkCore/AbpSolution5.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.TestBase": {
+      "path": "test/AbpSolution5.TestBase/AbpSolution5.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AbpSolution5.Domain.Tests": {
+      "path": "test/AbpSolution5.Domain.Tests/AbpSolution5.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AbpSolution5.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AbpSolution5.HttpApi.Client.ConsoleTestApp/AbpSolution5.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AbpSolution5.DbMigrator": {
+      "path": "src/AbpSolution5.DbMigrator/AbpSolution5.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.HttpApi.Host": {
+      "path": "src/AbpSolution5.HttpApi.Host/AbpSolution5.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AbpSolution5.Domain": {
+      "path": "src/AbpSolution5.Domain/AbpSolution5.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

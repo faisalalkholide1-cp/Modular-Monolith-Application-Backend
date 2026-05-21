@@ -1,0 +1,92 @@
+{
+  "id": "9e0a13e8-68c1-4bf6-ba11-8660c9faac02",
+  "creationTime": "05/21/2026 12:15:23 +00:00",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "10.3.0",
+    "AbpStudio": "3.0.2",
+    "TargetDotnetFramework": "net10.0"
+  },
+  "modules": {
+    "AbpSolution5": {
+      "path": "AbpSolution5.abpmdl",
+      "isMainApplication": true,
+      "folder": "main"
+    },
+    "Catalog": {
+      "path": "modules/catalog/Catalog.abpmdl",
+      "folder": "modules"
+    },
+    "Moduls.Ordering": {
+      "path": "modules/moduls.ordering/Moduls.Ordering.abpmdl",
+      "folder": "modules"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": []
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "3.0.2",
+    "creationTool": "ABP Studio UI",
+    "tiered": "false",
+    "runInstallLibs": "",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "true",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "angular",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "ef",
+    "runDbMigrator": "",
+    "databaseManagementSystem": "sqlserver",
+    "separateTenantSchema": "false",
+    "createInitialMigration": "",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "themeMenuPlacement": "",
+    "progressiveWebApp": "false",
+    "runProgressiveWebAppSupport": "false",
+    "publicWebsite": "false",
+    "socialLogin": "false",
+    "sampleCrudPage": "true",
+    "selectedLanguages": [
+      "English",
+      "Arabic",
+      "Chinese (Simplified)",
+      "Chinese (Traditional)",
+      "Czech",
+      "English (UK)",
+      "Finnish",
+      "French",
+      "German (Germany)",
+      "Hindi ",
+      "Hungarian",
+      "Icelandic",
+      "Italian",
+      "Portuguese (Brazil)",
+      "Romanian (Romania)",
+      "Russian",
+      "Slovak",
+      "Spanish",
+      "Swedish",
+      "Turkish"
+    ],
+    "defaultLanguage": "English",
+    "createCommand": "abp new AbpSolution5 -t app --ui-framework angular --database-provider ef --database-management-system sqlserver --theme leptonx-lite --skip-migration  --skip-migrator  --without-cms-kit --sample-crud-page --dont-run-install-libs --dont-run-bundling --no-social-logins -no-gdpr -no-openiddict-admin-ui -no-audit-logging -no-file-management -no-language-management -no-text-template-management"
+  },
+  "folders": {
+    "items": {
+      "main": {},
+      "modules": {}
+    }
+  }
+}

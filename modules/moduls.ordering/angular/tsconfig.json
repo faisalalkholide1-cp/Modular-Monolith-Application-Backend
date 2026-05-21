@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@moduls/ordering": ["projects/ordering/src/public-api.ts"],
+      "@moduls/ordering/config": [
+        "projects/ordering/config/src/public-api.ts"
+      ]
+    }
+  }
+}

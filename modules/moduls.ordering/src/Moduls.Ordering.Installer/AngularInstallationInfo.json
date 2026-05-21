@@ -1,0 +1,46 @@
+﻿{
+  "packages":[
+    {
+      "appRoutingModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "ORDERING_ROUTES"
+            ],
+            "namespace": "@moduls/ordering"
+          } 
+        ],
+        "routes":[
+          "{ path: 'ordering', children: ORDERING_ROUTES, canActivate: [authGuard] }"
+        ]
+      },
+      "appModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "provideOrdering"
+            ],
+            "namespace": "@moduls/ordering/config"
+          }
+        ],
+        "providerNames":[
+          "provideOrdering()"
+        ]
+      },
+      "tsJsonPathRecordConfigurations":[
+        {
+          "name": "@moduls/ordering",
+          "paths": [
+            "angular/projects/ordering/src/public-api.ts"
+          ]
+        },
+        {
+          "name": "@moduls/ordering/config",
+          "paths": [
+            "angular/projects/ordering/config/src/public-api.ts"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Moduls.Ordering.Domain": {
+      "path": "src/Moduls.Ordering.Domain/Moduls.Ordering.Domain.abppkg",
+      "folder": "src"
+    },
+    "Moduls.Ordering.Application.Contracts": {
+      "path": "src/Moduls.Ordering.Application.Contracts/Moduls.Ordering.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Moduls.Ordering.Application": {
+      "path": "src/Moduls.Ordering.Application/Moduls.Ordering.Application.abppkg",
+      "folder": "src"
+    },
+    "Moduls.Ordering.EntityFrameworkCore": {
+      "path": "src/Moduls.Ordering.EntityFrameworkCore/Moduls.Ordering.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Moduls.Ordering.HttpApi": {
+      "path": "src/Moduls.Ordering.HttpApi/Moduls.Ordering.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Moduls.Ordering.HttpApi.Client": {
+      "path": "src/Moduls.Ordering.HttpApi.Client/Moduls.Ordering.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Moduls.Ordering.TestBase": {
+      "path": "test/Moduls.Ordering.TestBase/Moduls.Ordering.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Moduls.Ordering.EntityFrameworkCore.Tests": {
+      "path": "test/Moduls.Ordering.EntityFrameworkCore.Tests/Moduls.Ordering.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Moduls.Ordering.Domain.Tests": {
+      "path": "test/Moduls.Ordering.Domain.Tests/Moduls.Ordering.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Moduls.Ordering.Application.Tests": {
+      "path": "test/Moduls.Ordering.Application.Tests/Moduls.Ordering.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Moduls.Ordering.Domain.Shared": {
+      "path": "src/Moduls.Ordering.Domain.Shared/Moduls.Ordering.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Moduls.Ordering.Installer": {
+      "path": "src/Moduls.Ordering.Installer/Moduls.Ordering.Installer.abppkg",
+      "folder": "src"
+    }
+  },
+  "imports": {
+    "Catalog": {
+      "path": "../catalog/Catalog.abpmdl"
+    }
+  }
+}

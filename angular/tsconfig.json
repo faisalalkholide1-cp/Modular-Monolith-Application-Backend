@@ -1,0 +1,39 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "bundler",
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": [
+      "ES2022",
+      "dom",
+      "esnext.disposable"
+    ],
+    "paths": {
+      "@modules/catalog": [
+        "../modules/modules.catalog/angular/projects/catalog/src/public-api.ts"
+      ],
+      "@modules/catalog/config": [
+        "../modules/modules.catalog/angular/projects/catalog/config/src/public-api.ts"
+      ],
+      "@moduls/ordering": [
+        "../modules/moduls.ordering/angular/projects/ordering/src/public-api.ts"
+      ],
+      "@moduls/ordering/config": [
+        "../modules/moduls.ordering/angular/projects/ordering/config/src/public-api.ts"
+      ]
+    },
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false
+  }
+}

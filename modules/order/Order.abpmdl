@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Order.Domain": {
+      "path": "src/Order.Domain/Order.Domain.abppkg",
+      "folder": "src"
+    },
+    "Order.Application.Contracts": {
+      "path": "src/Order.Application.Contracts/Order.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Order.Application": {
+      "path": "src/Order.Application/Order.Application.abppkg",
+      "folder": "src"
+    },
+    "Order.EntityFrameworkCore": {
+      "path": "src/Order.EntityFrameworkCore/Order.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Order.HttpApi": {
+      "path": "src/Order.HttpApi/Order.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Order.HttpApi.Client": {
+      "path": "src/Order.HttpApi.Client/Order.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Order.TestBase": {
+      "path": "test/Order.TestBase/Order.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Order.EntityFrameworkCore.Tests": {
+      "path": "test/Order.EntityFrameworkCore.Tests/Order.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Order.Domain.Tests": {
+      "path": "test/Order.Domain.Tests/Order.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Order.Application.Tests": {
+      "path": "test/Order.Application.Tests/Order.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Order.Domain.Shared": {
+      "path": "src/Order.Domain.Shared/Order.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Order.Installer": {
+       "path": "src/Order.Installer/Order.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

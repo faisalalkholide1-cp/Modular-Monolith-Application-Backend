@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/Catalog.Domain.Shared/Catalog.Domain.Shared.csproj" />
+        <Project Path="src/Catalog.Domain/Catalog.Domain.csproj" />
+        <Project Path="src/Catalog.Application.Contracts/Catalog.Application.Contracts.csproj" />
+        <Project Path="src/Catalog.Application/Catalog.Application.csproj" />
+        <Project Path="src/Catalog.EntityFrameworkCore/Catalog.EntityFrameworkCore.csproj" />
+        <Project Path="src/Catalog.HttpApi/Catalog.HttpApi.csproj" />
+        <Project Path="src/Catalog.HttpApi.Client/Catalog.HttpApi.Client.csproj" />
+        <Project Path="src/Catalog.Installer/Catalog.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/Catalog.TestBase/Catalog.TestBase.csproj" />
+        <Project Path="test/Catalog.EntityFrameworkCore.Tests/Catalog.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Catalog.Domain.Tests/Catalog.Domain.Tests.csproj" />
+        <Project Path="test/Catalog.Application.Tests/Catalog.Application.Tests.csproj" />
+    </Folder>
+</Solution>
