@@ -41,6 +41,8 @@ namespace Moduls.Ordering.Orders
 
             orderDtos.ForEach(orderDto =>
             {
+                //orderDto.ProductName =
+                //     products[orderDto.ProductId];
                 if (products.TryGetValue(orderDto.ProductId, out var productName))
                 {
                     orderDto.ProductName = productName;
