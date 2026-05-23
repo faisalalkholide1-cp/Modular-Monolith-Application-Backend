@@ -22,17 +22,17 @@ namespace Catalog.EventHandlers
 
         public async Task HandleEventAsync(OrderPlacedEto eventData)
         {
-            // Find the related product
+
             var product = await _productRepository.FindAsync(eventData.ProductId);
             if (product == null)
             {
                 return;
             }
 
-            // Decrease the stock count
+
             product.StockCount = product.StockCount - 1;
 
-            // Update the entity in the database
+
             await _productRepository.UpdateAsync(product);
         }
     }
